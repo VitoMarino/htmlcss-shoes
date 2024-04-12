@@ -34,6 +34,26 @@ nav.Flex {
     
 }
 
+section.Shoes1 .imgprimary {
+    display: inline-block;
+}
+
+section.Shoes1 .imgsecondary {
+    display: none;
+}
+
+section.Shoes1:hover .imgprimary {
+    display: none;
+}
+
+section.Shoes1:hover .imgsecondary {
+    display: inline-block;
+}
+
+section p.Animation {
+   
+}
+
 section.Shoes1 {
     display: flex;
     flex-direction: column;
