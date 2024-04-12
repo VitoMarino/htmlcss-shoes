@@ -9,12 +9,29 @@ div.Maxwidht {
     margin: 0 auto;
 }
 
-a {
-    
+header {
+    position: fixed;
+    background-color: #ff0000;
 }
 
-header {
-    background-color: #ff0000;
+nav.Flex {
+    display: flex;
+    position: absolute;
+    left: 65rem;
+}
+
+.Flex a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    padding: 1 rem;
+    background-color: white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    
 }
 
 section.Shoes1 {
@@ -24,6 +41,7 @@ section.Shoes1 {
     align-items: center;
     background-color: #ff0000;
     padding: 7rem;
+    text-align: center;
 }
 
 section.Shoes1 p {
@@ -39,6 +57,7 @@ section.Shoes2 {
     align-items: center;
     background-color: #008000;
     padding: 7rem;
+    text-align: center;
 }
 
 section.Shoes2 p {
@@ -54,6 +73,7 @@ section.Shoes3 {
     align-items: center;
     background-color: #ffff00;
     padding: 7rem;
+    text-align: center;
 }
 
 section.Shoes3 p {
